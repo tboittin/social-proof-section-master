@@ -82,4 +82,39 @@ body {
   font-size: 12px;
 }
 
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-size: 40%, 50%;
+    background-position: start, end;
+    padding: 5vh 10vw;
+  }
+
+  .top {
+    display: flex;
+  }
+  .top .hero {
+    text-align: left;
+    width: 50%;
+  }
+  .top .hero h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  .top .hero .description {
+    font-size: 1rem;
+    padding-right: 10%;
+    line-height: 2rem;
+  }
+  .top .ratings {
+    width: 50%;
+  }
+
+  .reviews {
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
