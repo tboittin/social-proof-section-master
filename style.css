@@ -19,6 +19,7 @@ body {
   color: #502050;
   font-weight: 700;
   padding: 0 50px;
+  font-size: 1.5rem;
 }
 .hero .description {
   color: #937b92;
@@ -42,7 +43,7 @@ body {
 }
 
 .reviews {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 .reviews .review {
   background-color: #502050;
@@ -82,12 +83,23 @@ body {
   font-size: 12px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 576px) {
+  body {
+    padding: 40px 10vw;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 960px) {
   body {
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
-    background-size: 40%, 50%;
-    background-position: start, end;
-    padding: 5vh 10vw;
+    background-size: 35%, 75%;
+    background-position: 0 0, 100% 100%;
+    padding: 0 10vw;
+    height: 100vh;
+    margin: 0;
   }
 
   .top {
@@ -100,20 +112,60 @@ body {
   .top .hero h1 {
     font-size: 3.5rem;
     line-height: 3.5rem;
-    padding: 0;
+    padding-right: 50px;
+    padding-left: 0;
     margin: 0;
   }
   .top .hero .description {
     font-size: 1rem;
-    padding-right: 10%;
+    padding-right: 15%;
     line-height: 2rem;
   }
   .top .ratings {
     width: 50%;
+    padding: 40px 0px 10px 30px;
+  }
+  .top .ratings .rating {
+    display: flex;
+    padding: 10px;
+    width: 75%;
+    margin: 15px;
+  }
+  .top .ratings .rating .rating-stars {
+    padding: 5px 5px 5px 15px;
+  }
+  .top .ratings .rating .rating-text {
+    padding: 7px 20px;
+    margin: 0;
+    align-self: baseline;
+    font-size: 1rem;
+  }
+  .top .ratings .rating:nth-child(1) {
+    margin-left: 0px;
+  }
+  .top .ratings .rating:nth-child(2) {
+    margin-left: 50px;
+  }
+  .top .ratings .rating:nth-child(3) {
+    margin-left: 100px;
   }
 
   .reviews {
     display: flex;
+    margin-left: -15px;
+    /*to align 1st review with hero */
+  }
+  .reviews .review {
+    height: 20%;
+  }
+  .reviews .review:nth-child(1) {
+    margin-top: 0px;
+  }
+  .reviews .review:nth-child(2) {
+    margin-top: 20px;
+  }
+  .reviews .review:nth-child(3) {
+    margin-top: 40px;
   }
 }
 
