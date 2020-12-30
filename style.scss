@@ -1,3 +1,5 @@
+@import './reset.scss';
+
 $primary-magenta: hsl(300, 43%, 22%);
 $primary-pink: hsl(333, 80%, 67%);
 
@@ -34,10 +36,6 @@ body {
     margin: 1rem 0;
     font-weight: 500;
   }
-}
-
-p {
-  margin: 0;
 }
 
 .ratings {

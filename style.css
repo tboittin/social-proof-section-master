@@ -1,3 +1,16 @@
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 html {
   font-size: 15px;
   font-family: "Spartan", sans-serif;
@@ -25,10 +38,6 @@ body {
   color: #937b92;
   margin: 1rem 0;
   font-weight: 500;
-}
-
-p {
-  margin: 0;
 }
 
 .ratings {
