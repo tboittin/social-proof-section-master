@@ -1,0 +1,87 @@
+$primary-magenta: hsl(300, 43%, 22%);
+$primary-pink: hsl(333, 80%, 67%);
+
+$neutral-dark-magenta: hsl(303, 10%, 53%);
+$neutral-light-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+html {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+}
+
+.hero {
+  h1 {
+    color: $primary-magenta;
+    font-weight: 700;
+    padding: 0 50px;
+  }
+
+  .description {
+    color: $neutral-dark-magenta;
+    margin: 1rem 0;
+    font-weight: 500;
+  }
+}
+
+.ratings {
+  margin: 30px 0;
+  .rating {
+    background-color: $neutral-light-magenta;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    .rating-text {
+      color: $primary-magenta;
+      font-weight: 700;
+      margin: 5px;
+    }
+  }
+}
+
+.reviews {
+  margin: 50px 0;
+  .review {
+    background-color: $primary-magenta;
+    color: $neutral-light-magenta;
+    border-radius: 10px;
+    margin: 20px 15px;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    .review-header {
+      display: flex;
+      margin: 10px 0px;
+      flex-direction: row;
+      align-items: center;
+      .review-header-picture {
+        // width: fit-content;
+        width: 25%;
+        img {
+          border-radius: 50%;
+          width: 70%;
+        }
+      }
+      .review-header-name {
+        color: $white;
+        font-weight: 500;
+        margin: 5px;
+      }
+      .review-header-role {
+        color: $primary-pink;
+        margin: 5px;
+      }
+    }
+    .review-body {
+      margin-top: 10px;
+      line-height: 1.4rem;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+html {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+}
+
+.hero h1 {
+  color: #502050;
+  font-weight: 700;
+  padding: 0 50px;
+}
+.hero .description {
+  color: #937b92;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.ratings {
+  margin: 30px 0;
+}
+.ratings .rating {
+  background-color: #f7f2f7;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.ratings .rating .rating-text {
+  color: #502050;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.reviews {
+  margin: 50px 0;
+}
+.reviews .review {
+  background-color: #502050;
+  color: #f7f2f7;
+  border-radius: 10px;
+  margin: 20px 15px;
+  padding: 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.reviews .review .review-header {
+  display: flex;
+  margin: 10px 0px;
+  flex-direction: row;
+  align-items: center;
+}
+.reviews .review .review-header .review-header-picture {
+  width: 25%;
+}
+.reviews .review .review-header .review-header-picture img {
+  border-radius: 50%;
+  width: 70%;
+}
+.reviews .review .review-header .review-header-name {
+  color: white;
+  font-weight: 500;
+  margin: 5px;
+}
+.reviews .review .review-header .review-header-role {
+  color: #ee68a4;
+  margin: 5px;
+}
+.reviews .review .review-body {
+  margin-top: 10px;
+  line-height: 1.4rem;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
