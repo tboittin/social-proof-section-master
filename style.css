@@ -130,9 +130,11 @@ body {
     padding: 10px;
     width: 75%;
     margin: 15px;
+    align-items: center;
   }
   .top .ratings .rating .rating-stars {
     padding: 5px 5px 5px 15px;
+    min-width: 120px;
   }
   .top .ratings .rating .rating-text {
     padding: 7px 20px;
