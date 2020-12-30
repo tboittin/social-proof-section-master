@@ -6,8 +6,15 @@ html {
 
 body {
   padding: 10px;
+  background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top, bottom;
+  background-size: 100%;
 }
 
+.hero {
+  margin-top: 65px;
+}
 .hero h1 {
   color: #502050;
   font-weight: 700;
